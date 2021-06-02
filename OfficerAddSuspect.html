@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+<title></title>
+<link rel="stylesheet" href="webpages2.css">
+</head>
+<body bgcolor=cyan>
+<div class="Header">
+<h1> XYZ Investigative Agency </h1>
+</div>
+<br>
+<div class="Bar" align=center>
+<ul>
+<li><a href="#">Add Suspect</a></li>
+<li><a href="OfficerAddEvidence.html">Add Evidence</a></li>
+<li><a href="OfficerAddCHistory.html">Add Case History</a></li>
+<li><a href="OfficerSuspects.html">View Suspects</a></li>
+<li><a href="OfficerEvidence.html">View Evidence</a></li>
+<li><a href="OfficerCaseHistory.html">View Case History</a></li>
+<li><a href="FirstPage.html">Log Out</a></li>
+</ul>
+</div>
+<br><br><br>
+<div class="Main">
+<p>
+<a href="#">Add Suspect</a>
+</p>
+<form name="Suspect" method=post>
+<table width="500" border="0" cellspacing="2" cellpadding="2" align=center>
+<tr>
+<td align=right>Case ID: </td>
+<td align=left><input type="text" id="cid" name="cid" ></td>
+</tr>
+<tr>
+<td align=right>Suspect Name: </td>
+<td align=left><input type="text" id="sname" name="sname" ></td>
+</tr>
+<tr>
+<td align=right>Gender: </td>
+<td align=left><select id="gen">
+<option value="m">Male</option>
+<option value="f">Female</option>
+</select></td>
+</tr>
+<tr>
+<td align=right>Birth Date: </td>
+<td align=left><input type="date" id="bdate" name="bdate"
+       min="1900-01-01" max="2020-12-31"></td>
+</tr>
+<tr>
+<td align=right>Contact Number: </td>
+<td align=left><input type="text" id="cnum" name="cnum" ></td>
+</tr>
+<tr>
+<td align=right>Profession: </td>
+<td align=left><input type="text" id="rel" name="rel" ></td>
+</tr>
+<tr>
+<td align=right>Address: </td>
+<td align=left><textarea name="address" cols="20" rows="5"></textarea></td>
+</tr>
+<tr>
+<td align=right>Note: </td>
+<td align=left><textarea name="note" cols="20" rows="5"></textarea></td>
+</tr>
+<tr>
+<td align=right>Image: </td>
+<td align=left><input type="file" id="img" name="img"></td>
+</tr>
+</table>
+<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
+
